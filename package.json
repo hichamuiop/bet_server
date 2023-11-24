@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --exec node index.js",
-    "start": "set NODE_ENV=production&& node index.js" 
+    "start": "node index.js" 
   },
   "engines": {
     "node": "18.x"
