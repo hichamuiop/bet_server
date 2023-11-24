@@ -10,7 +10,7 @@ const UserSchema = Schema({
     image: { type: String },
     password: { type: String, required: true },
     joined: { type: Date, default: new Date() },
-    role : { type: String , default:"admin" },
+    role : { type: String , default:"user" },
     isVerified : {type : Boolean , default : false }
 })
 
