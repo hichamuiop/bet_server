@@ -41,6 +41,12 @@ require("./config/passport")(passport);
 
 app.use("/api/bet", bet);
 
+app.use("/" , (req,res) => {
+  return res.json({
+    message : "Hello World"
+  })
+})
+
 // ----------- Public Images -----------//
 
 app.use(express.static("public"));
